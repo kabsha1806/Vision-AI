@@ -1,0 +1,13 @@
+prefix=/Users/shaikkabshaansariya/This pc/vision_ai/venv
+exec_prefix=/Users/shaikkabshaansariya/This pc/vision_ai/venv
+libdir=/Users/shaikkabshaansariya/This pc/vision_ai/venv/lib
+sharedlibdir=/Users/shaikkabshaansariya/This pc/vision_ai/venv/lib
+includedir=/Users/shaikkabshaansariya/This pc/vision_ai/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
